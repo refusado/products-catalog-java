@@ -1,5 +1,11 @@
 # Catálogo de Produtos
-Uma API RESTful utilizando Java com Spring Boot e MongoDB como banco de dados. Possui todas as operações CRUD, validações para as informações que chegam para garantir a integridade dos dados e os devidos manipuladores de exceções para diferentes casos. Alguns testes unitários foram implementados para garantir uma maior segurança no desenvolvimento, cobrindo os principais cenários de erros possíveis.
+Uma API RESTful utilizando Java com Spring Boot e MongoDB como banco de dados.
+
+Possui todas as operações CRUD, validações para as informações que chegam para garantir a integridade dos dados e os devidos manipuladores de exceções para diferentes casos.
+
+Alguns testes unitários foram implementados para garantir uma maior segurança no desenvolvimento, cobrindo os principais cenários de erros possíveis.
+
+A documentação da API está disponível no caminho /api/docs
 
 
 ## Pré-requisitos
@@ -60,4 +66,4 @@ Para rodar a aplicação, execute:
 mvn spring-boot:run
 ```
 
-Após isto, a aplicação estará disponível em: http://localhost:8080/api/produtos
+Após isto, a aplicação estará rodando e você pode verificar a documentação dela em: http://localhost:8080/api/docs
