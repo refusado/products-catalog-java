@@ -1,3 +1,7 @@
+# Catálogo de Produtos
+Uma API RESTful utilizando Java com Spring Boot e MongoDB como banco de dados. Possui todas as operações CRUD, validações para as informações que chegam para garantir a integridade dos dados e os devidos manipuladores de exceções para diferentes casos. Alguns testes unitários foram implementados para garantir uma maior segurança no desenvolvimento, cobrindo os principais cenários de erros possíveis.
+
+
 ## Pré-requisitos
 
 - JDK 17+
