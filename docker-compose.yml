@@ -1,0 +1,9 @@
+services:
+  mongodb:
+    image: 'mongo'
+    environment:
+      - 'MONGO_INITDB_DATABASE=productcatalog'
+      - 'MONGO_INITDB_ROOT_USERNAME=mainuser'
+      - 'MONGO_INITDB_ROOT_PASSWORD=secretpw'
+    ports:
+      - '27017:27017'
